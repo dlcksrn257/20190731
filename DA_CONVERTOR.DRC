@@ -1,0 +1,65 @@
+Date and Time : 07/31/19 14:37:27
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+Checking Electrical Rules 
+WARNING(ORCAP-1831): Unconnected pin U4,+IN 
+                    SCHEMATIC1, PAGE1  (205.74, 116.84) 
+WARNING(ORCAP-1830): Unconnected port  SIG 
+                    SCHEMATIC1, PAGE1  (198.12, 116.84) 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+Checking Physical Rules 
+
+
+Checking Pins and Pin Connections
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+
+INFO(ORCAP-2242): Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+
+Report for Duplicate References
+
+--------------------------------------------------
+Checking Entire Design: DA_CONVERTOR 
+--------------------------------------------------
+
+Checking Power Pin Visibility  
+
+Checking Normal Convert View Sync  
+INFO(ORCAP-36105): Checking Missing Pin Numbers  
+
+Checking Device with Zero pins  
+INFO(ORCAP-36101): Checking Missing PCB Footprint Property  
+
+Checking Name Property for Hierarchical Instances  
+
+INFO(ORCAP-2211): Check High Speed Properties Syntax
+
+INFO(ORCAP-2212): Check Power Ground Mismatch
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U1,V+  V+  +12V
+                    SCHEMATIC1, PAGE1  (88.90, 25.40) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U4,V+  V+  +12V
+                    SCHEMATIC1, PAGE1  (215.90, 101.60) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U2,V+  V+  +12V
+                    SCHEMATIC1, PAGE1  (147.32, 27.94) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? +5V  +5V  VCC  
+                    SCHEMATIC1, PAGE1  (30.48, 160.02) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U2,V-  V-  -12V
+                    SCHEMATIC1, PAGE1  (147.32, 53.34) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U1,V-  V-  -12V
+                    SCHEMATIC1, PAGE1  (88.90, 50.80) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U4,V-  V-  -12V
+                    SCHEMATIC1, PAGE1  (215.90, 127.00) 
+
+Reporting Unused Refdes in multiple part packages
+Part	                       Quantity	                       Reference
+-----------------------------------------------------------------------------------------
